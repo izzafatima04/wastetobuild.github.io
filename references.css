@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+}
+
+body {
+  letter-spacing: 1px;
+  margin: 0;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+  background-color: rgb(137, 187, 127);
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav {
+  font-size: 14px;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  background-color: rgb(12, 56, 6);
+}
+
+.nav ul {
+  list-style: none;
+}
+
+.nav li {
+  display: inline-block;
+  margin-left: 70px; /* Adjust margin based on your needs */
+}
+
+.nav a {
+  color: #eaebdc;
+  text-decoration: none;
+}
+
+.logo {
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+section {
+  padding: 40px;
+}

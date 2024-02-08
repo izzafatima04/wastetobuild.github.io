@@ -1,0 +1,147 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+}
+
+body {
+  letter-spacing: 1px;
+  margin: 0;
+  overflow-x: hidden;
+  background-color: #9ce29c;
+}
+
+a {
+  text-decoration: none;
+}
+
+.box {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(32, 68, 16, 0.329);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10vh 10vw;
+  box-sizing: border-box;
+}
+
+.box video {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.nav {
+  font-size: 14px;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  background-color: rgb(12, 56, 6);
+}
+
+.nav ul {
+  list-style: none;
+}
+
+.nav li {
+  display: inline-block;
+  margin-left: 70px;
+}
+
+.nav a {
+  color: #eaebdc;
+  text-decoration: none;
+}
+
+.logo {
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.head {
+  padding-bottom: 15px;
+  font-size: 25px;
+  word-spacing: 20px;
+  letter-spacing: 5px;
+  text-align: center;
+  color: #b8c483;
+}
+
+.title {
+  font-size: 6vw;
+  text-align: center;
+  padding-top: 5vh;
+  color: #b8c483;
+}
+
+.container {
+  background-image: url(gallery.jpeg);
+  background-size: cover;
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 350px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.gallery {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background: rgba(12, 71, 5, 0.534);
+  padding: 550px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+
+.gallery-text {
+  padding: 350px;
+  text-align: center;
+  color: #eaebdc;
+  font-size: 2vw;
+  position: absolute;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.count {
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  padding: 100px;
+  padding-top: 200px;
+}
+
+.facts {
+  margin: 50px;
+  font-size: 30px;
+}
+
+.facts b {
+  font-size: 60px;
+  color: green;
+}
+
+footer {
+  text-align: center;
+  background-color: #8bc483;
+  padding: 15px;
+}
